@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">WZ</div>
+        <div class="nav-toggle">
+            <!-- <i class="fas fa-bars"></i> -->
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="active">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <!-- <li><a href="#skills">技能</a></li> -->
+            <li><a href="#projects">项目</a></li>
+            <!-- <li><a href="#blog">博客</a></li> -->
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="animated-bg"></div>
+        <div class="hero-content">
+            <div class="avatar-container">
+                <img src="assets/images/my_avatar.jpg" alt="王政的头像" class="avatar">
+            </div>
+            <h1>王政</h1>
+            <p class="typewriter">南京大学软件学院 / 全栈开发工程师 / 代码艺术家</p>
+            <div class="social-links">
+                <a href="https://github.com/WanzeNju" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">查看作品</a>
+                <a href="#contact" class="btn secondary">联系我</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-description">
+                    目前就读于南京大学软件学院的学生开发者。作为一名充满激情的程序员，
+                    我精通 Java, Python, C, C++, JavaScript, TypeScript, ArkTS 等编程语言，
+                    熟练掌握 React, Vue, Angular, Spring Boot, Django, Flask, Next.js, Flutter 等各种框架。
+                    精通 Linux 运营与维护，
+                    能熟练运用各种开发工具。
+                </p>
+                <div class="skill-categories">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> 编程语言精通程度</h3>
+                        <p>Hello World! 编写成功率 100%</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-layer-group"></i> 框架掌握程度</h3>
+                        <p>框架名称全部无拼写错误</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-terminal"></i> 系统运维能力</h3>
+                        <p>开机成功率 99.9%，重启成功率 100%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">掌握编程语言</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">8+</span>
+                    <span class="stat-label">精通开发框架</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">重启次数</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>项目展示</h2>
+        <div class="projects-container">
+            <!-- 蓝鲸商城项目 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>BlueWhale 蓝鲸商城</h3>
+                    <div class="project-tags">
+                        <span class="tag">Vue3</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        一个以国内品牌为核心的电商平台，采用前后端分离架构，提供安全、高效、个性化的购物体验。
+                    </p>
+                    <div class="project-features">
+                        <h4>主要功能</h4>
+                        <ul>
+                            <li>商品展示与分类</li>
+                            <li>用户账户系统</li>
+                            <li>购物车与支付系统</li>
+                            <li>智能推荐</li>
+                            <li>订单与配送管理</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ThesisMaster 项目 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>ThesisMaster 论文搜索平台</h3>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        专为学术研究者设计的论文搜索平台，提供全球范围内的学术论文搜索和下载服务。
+                    </p>
+                    <div class="project-features">
+                        <h4>主要功能</h4>
+                        <ul>
+                            <li>论文搜索与筛选</li>
+                            <li>全文下载与阅读</li>
+                            <li>文献管理</li>
+                            <li>推荐系统</li>
+                            <li>学术社交</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HTTP 客户端服务器项目 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Java Socket HTTP 实现</h3>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Socket</span>
+                        <span class="tag">HTTP</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        使用 Java Socket API 实现的 HTTP 客户端和服务器端程序，深入理解 HTTP 协议原理。
+                    </p>
+                    <div class="project-features">
+                        <h4>主要功能</h4>
+                        <ul>
+                            <li>HTTP 服务器实现</li>
+                            <li>HTTP 客户端实现</li>
+                            <li>请求响应处理</li>
+                            <li>多线程支持</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>联系我</h2>
+        <div class="contact-container">
+            <div class="contact-item">
+                <i class="fab fa-qq"></i>
+                <h3>QQ</h3>
+                <p>3306521295</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>221250114@smail.nju.edu.cn</p>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/WanzeNju" target="_blank">@WanzeNju</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
